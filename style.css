@@ -1,0 +1,39 @@
+.navbar {
+    background-color: rgb(87, 88, 78);
+    height: 10vh;
+
+}
+.navbar .nav-link {
+    color: bisque;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.btn {
+    padding: 12px 30px ;
+    font-weight: 900;
+    font-size: 18px;
+}
+.btn-bembang {
+    background-color: skyblue;
+    border: 2px solid #000 ;
+    border-radius: 60PX;
+    transition: all ease-in 0.5s;
+}
+.btn-bembang:hover {
+    color: grey;
+    border: 2px solid #FFF;
+}
+.hays{
+    width: 8%;
+}
+.banner{
+    background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,169,185,0.3841911764705882) 0%, rgba(0,212,255,1) 100%), url(sky.jpg);
+    height: 100vh;
+    background-size: cover;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.banner p{
+    color: yellow;
+    font-size: 20px;
+}
