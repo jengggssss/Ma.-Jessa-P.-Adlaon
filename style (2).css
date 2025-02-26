@@ -1,0 +1,83 @@
+.navbar {
+    background-color: rgb(87, 88, 78);
+    height: 10vh;
+
+}
+.navbar .nav-link {
+    color: bisque;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.btn {
+    padding: 12px 30px ;
+    font-weight: 900;
+    font-size: 18px;
+}
+.btn-bembang {
+    background-color: skyblue;
+    border: 2px solid #000 ;
+    border-radius: 60PX;
+    transition: all ease-in 0.5s;
+}
+.btn-bembang:hover {
+    color: grey;
+    border: 2px solid #FFF;
+}
+.hays{
+    width: 8%;
+}
+.banner{
+    background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,169,185,0.3841911764705882) 0%, rgba(0,212,255,1) 100%), url(sky.jpg);
+    height: 100vh;
+    background-size: cover;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.banner p{
+    color: yellow;
+    font-size: 20px;
+} 
+section{
+    padding: 100px 0;
+
+}
+#about h2, #about h3{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#about h3{
+    color: rgb(126, 115, 115);
+}
+#about img{
+    border: 4px solid rgb(79, 119, 228);
+    box-shadow: 0 0 15px 0 rgba(53, 240, 247, 0.384);
+    border-radius: 25px;
+}
+.card-img-top{
+    width: 35%;
+}
+.card{
+    padding: 25px 20px;
+    transition: all ease-in 0.5s;
+    border: 4px solid rgb(79, 119, 228);
+    box-shadow: 0 0 15px 0 rgba(53, 240, 247, 0.384);
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.card:hover{
+    background-color: rgba(22, 161, 161, 0.658);
+}
+.card:hover .card-title,
+.card:hover .card-text{
+    color: white;
+}
+#services h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 55px;
+    color: rgb(17, 145, 150);
+    margin-bottom: 30px;
+}
+#services{
+    background: rgb(146, 200, 231);
+}
