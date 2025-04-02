@@ -81,3 +81,70 @@ section{
 #services{
     background: rgb(146, 200, 231);
 }
+#reviews{
+    background-color: gray;
+}
+.testimonial{
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.testimonial img{
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid pink;
+}
+.faq-section{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+
+}
+.accordion-button{
+    background-color: rgb(167, 137, 142);
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color:white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.accordion-body{
+    border-left: 3px solid rgb(114, 107, 98);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: rgb(110, 96, 98);
+
+}
+.accordion-button:not(.collapsed){
+    background-color: rgb(152, 152, 238);
+    color: #FFF;
+}
+.accordion-button:hover{
+    background-color:  rgb(45, 45, 209);
+    color: #FFF;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0A1737 ;
+} 
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color:  rgb(244, 149, 15) ;
+    
+}
