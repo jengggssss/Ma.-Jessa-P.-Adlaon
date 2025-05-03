@@ -1,136 +1,160 @@
-.navbar {
-    background-color: rgb(87, 88, 78);
+.navbar{
+    background-color:bisque;
     height: 10vh;
-
 }
-.navbar .nav-link {
-    color: bisque;
+
+.navbar .nav-link{
+    color:rgb(145, 104, 51);
     text-transform: uppercase;
     font-weight: 900;
 }
-.btn {
-    padding: 12px 30px ;
+.navbar .nav-link{
+    color:rgb(41, 39, 36);
+
+}
+.navbar .nav-link:hover{
+    color: #9ab90b;
+    border: 2px solid #ffffff25;
+    
+}
+.btn{
+    padding: 12px 30px;
     font-weight: 900;
     font-size: 18px;
 }
-.btn-bembang {
-    background-color: skyblue;
-    border: 2px solid #000 ;
-    border-radius: 60PX;
+
+.btn-click{
+    background-color: rgba(129, 204, 163, 0.795);
+    border: 2px solid #000;
+    border-radius: 60px;
     transition: all ease-in 0.5s;
 }
-.btn-bembang:hover {
-    color: grey;
-    border: 2px solid #FFF;
+
+.btn-click:hover{
+    color: #9ab90b;
+    border: 2px solid #ffffff25;
+
 }
-.hays{
-    width: 8%;
+.pic{
+    border-radius: 100%;
+    box-shadow: #FFF;
+    width: 90px;
 }
 .banner{
-    background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,169,185,0.3841911764705882) 0%, rgba(0,212,255,1) 100%), url(sky.jpg);
-    height: 100vh;
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.86) 0%, rgba(0, 0, 0, 0.379)53%),url('new.jpg');
+    height: 90vh;
     background-size: cover;
+}
+h1{
+    font-size: 45px;
+    color: white;
     text-transform: uppercase;
     font-weight: 800;
 }
 .banner p{
-    color: yellow;
+    color: #FFF;
     font-size: 20px;
-} 
-section{
-    padding: 100px 0;
+}
+.section{
+    padding:100px 0;
 
 }
 #about h2, #about h3{
     text-transform: uppercase;
     font-weight: 800;
 }
-#about h3{
-    color: rgb(126, 115, 115);
+#about h2{
+    color:tomato;
 }
 #about img{
-    border: 4px solid rgb(79, 119, 228);
-    box-shadow: 0 0 15px 0 rgba(53, 240, 247, 0.384);
+    margin-top: 50px ;
+    border:7px solid white;
+    box-shadow: 0 0 45px 0 rgba(80, 121, 255, 0.671);
     border-radius: 25px;
 }
 .card-img-top{
-    width: 35%;
+    width:35%;
 }
 .card{
-    padding: 25px 20px;
+    padding:25px 20px;
     transition: all ease-in 0.5s;
-    border: 4px solid rgb(79, 119, 228);
-    box-shadow: 0 0 15px 0 rgba(53, 240, 247, 0.384);
+    border: 4px solid #FFF;
+    box-shadow: 0 0 15px 0 #4c0bce2b;
     border-radius: 25px;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 .card:hover{
-    background-color: rgba(22, 161, 161, 0.658);
+    background-color: #2fd0db;
+    box-shadow: rgba(20, 19, 20, 0.733);
 }
 .card:hover .card-title,
 .card:hover .card-text{
-    color: white;
+    color:#FFF
 }
 #services h2{
     text-transform: uppercase;
     font-weight: 800;
     font-size: 55px;
-    color: rgb(17, 145, 150);
-    margin-bottom: 30px;
+    color:#0f0f0f;
+    margin-bottom: 35px;
 }
 #services{
-    background: rgb(146, 200, 231);
+    background:url('jessa.jpg');
+    margin-top: 65px;
+    padding: 50px;
+    background-size: cover;
 }
 #reviews{
-    background-color: gray;
+    background-color: #0a1224;
+    padding: 45px;
+    
 }
 .testimonial{
-    border: 2px solid whitesmoke;
+    border: 2px solid #FFF;
     padding: 20px;
     border-radius: 20px;
     margin-top: 20px;
-    text-align: center;
-}
-.testimonial img{
+}.testimonial img{
     width: 75px;
     border-radius: 50%;
-    border: 2px solid pink;
+    border: 2px solid #FFF;
 }
 .faq-section{
-    max-width: 800px;
+    max-width: 800px;   
     margin: auto;
     margin-top: 30px;
 }
+
 .accordion-item{
     margin-bottom: 20px;
     border-radius: 0 !important;
-
 }
 .accordion-button{
-    background-color: rgb(167, 137, 142);
+    background-color: #f8f9fa;
     border: none;
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid #dee2e6;
     border-radius: 0 !important;
     padding: 15px;
     font-size: 18px;
     font-weight: 500;
-    color:white;
+    color: #343a40;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
+
 .accordion-body{
-    border-left: 3px solid rgb(114, 107, 98);
+    border-left: 3px solid #0A1737;
     padding: 10px 15px;
     margin-left: 0;
-    background-color: rgb(110, 96, 98);
-
+    background-color: #f8f9fa;
 }
 .accordion-button:not(.collapsed){
-    background-color: rgb(152, 152, 238);
+    background-color: #0A1737;
     color: #FFF;
 }
+
 .accordion-button:hover{
-    background-color:  rgb(45, 45, 209);
+    background-color: #0A1737;
     color: #FFF;
 }
 footer {
@@ -147,4 +171,18 @@ footer {
 #footer ul.list-unstyled li:hover a {
     color:  rgb(244, 149, 15) ;
     
+}
+
+@media screen and (max-width: 768px){
+    h1{
+        font-size: 30px !important;
+    }
+    section{
+        padding: 60px 20px;
+    }
+    #about img{
+        height: 300px;
+        width: 300px;
+        margin: 30px;
+    }
 }
